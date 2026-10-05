@@ -1,0 +1,25 @@
+name: suhbatdosh_ai
+description: SUHBATDOSH AI - telefon uchun J.A.R.V.I.S uslubidagi yordamchi
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  shared_preferences: ^2.2.0
+  speech_to_text: ^7.0.0
+  flutter_tts: ^4.0.0
+  url_launcher: ^6.3.0
+  android_intent_plus: ^5.0.0
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.1
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "logo.png"
+  adaptive_icon_background: "#05080F"
+  adaptive_icon_foreground: "logo.png"
+flutter:
+  uses-material-design: true
